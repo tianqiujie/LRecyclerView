@@ -1,3 +1,5 @@
+[![](https://www.jitpack.io/v/tianqiujie/LRecyclerView.svg)](https://www.jitpack.io/#tianqiujie/LRecyclerView)
+
 # LRecyclerView 
 
 LRecyclerView是支持addHeaderView、 addFooterView、下拉刷新、分页加载数据的RecyclerView。
