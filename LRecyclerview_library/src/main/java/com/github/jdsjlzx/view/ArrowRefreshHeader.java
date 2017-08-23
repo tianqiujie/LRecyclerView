@@ -65,7 +65,7 @@ public class ArrowRefreshHeader extends LinearLayout implements IRefreshHeader {
         this.setLayoutParams(lp);
         this.setPadding(0, 0, 0, 0);
 
-        mContainer = (LinearLayout) LayoutInflater.from(getContext()).inflate(R.layout.listview_header, null);
+        mContainer = (LinearLayout) LayoutInflater.from(getContext()).inflate(R.layout.l_listview_header, null);
         addView(mContainer, new LayoutParams(LayoutParams.MATCH_PARENT, 0));
         setGravity(Gravity.BOTTOM);
 
