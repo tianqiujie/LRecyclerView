@@ -6,17 +6,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-public class SimpleViewSwitcher extends ViewGroup {
+public class LSimpleViewSwitcher extends ViewGroup {
 
-    public SimpleViewSwitcher(Context context) {
+    public LSimpleViewSwitcher(Context context) {
         super(context);
     }
 
-    public SimpleViewSwitcher(Context context, AttributeSet attrs) {
+    public LSimpleViewSwitcher(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public SimpleViewSwitcher(Context context, AttributeSet attrs, int defStyle) {
+    public LSimpleViewSwitcher(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 

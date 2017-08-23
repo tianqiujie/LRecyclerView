@@ -29,7 +29,7 @@ public class ArrowRefreshHeader extends LinearLayout implements IRefreshHeader {
 
     private LinearLayout mContainer;
     private ImageView mArrowImageView;
-    private SimpleViewSwitcher mProgressBar;
+    private LSimpleViewSwitcher mProgressBar;
     private TextView mStatusTextView;
     private int mState = STATE_NORMAL;
 
@@ -73,7 +73,7 @@ public class ArrowRefreshHeader extends LinearLayout implements IRefreshHeader {
         mStatusTextView = (TextView)findViewById(R.id.refresh_status_textview);
 
         //init the progress view
-        mProgressBar = (SimpleViewSwitcher)findViewById(R.id.listview_header_progressbar);
+        mProgressBar = (LSimpleViewSwitcher)findViewById(R.id.listview_header_progressbar);
         mProgressBar.setView(initIndicatorView(ProgressStyle.BallSpinFadeLoader));
 
         mRotateUpAnim = new RotateAnimation(0.0f, -180.0f,

@@ -22,7 +22,7 @@ public class LoadingFooter extends RelativeLayout implements ILoadMoreFooter{
     private View mLoadingView;
     private View mNetworkErrorView;
     private View mTheEndView;
-    private SimpleViewSwitcher mProgressView;
+    private LSimpleViewSwitcher mProgressView;
     private TextView mLoadingText;
     private TextView mNoMoreText;
     private TextView mNoNetWorkText;
@@ -175,7 +175,7 @@ public class LoadingFooter extends RelativeLayout implements ILoadMoreFooter{
                     ViewStub viewStub = (ViewStub) findViewById(R.id.loading_viewstub);
                     mLoadingView = viewStub.inflate();
 
-                    mProgressView = (SimpleViewSwitcher) mLoadingView.findViewById(R.id.loading_progressbar);
+                    mProgressView = (LSimpleViewSwitcher) mLoadingView.findViewById(R.id.loading_progressbar);
                     mLoadingText = (TextView) mLoadingView.findViewById(R.id.loading_text);
                 }
 
